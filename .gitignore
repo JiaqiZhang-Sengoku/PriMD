@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Data and experiment outputs
+dataset/
+saved/
+run_logs/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+
+# Notebook and local runtime artifacts
+.ipynb_checkpoints/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
