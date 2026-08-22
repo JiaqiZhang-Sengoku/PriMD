@@ -1,8 +1,4 @@
-# Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition
-
-<p align="center">
-  <b>A Primitive Memory Distillation Perspective</b>
-</p>
+# [PriMD] Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective
 
 <p align="center">
   <img src="https://img.shields.io/badge/Task-Incomplete%20Multimodal%20Emotion%20Recognition-2f6fed" alt="task">
@@ -33,19 +29,6 @@ Multimodal Emotion Recognition (MER) often suffers from missing modalities in re
 <p align="center">
   <img width="900" alt="PriMD Architecture" src="./figures/PriMD.png">
 </p>
-
-PriMD is built around a two-stage learning process:
-
-1. **Teacher stage.** A complete-modality teacher learns shared/specific
-   representations and constructs primitive memory banks.
-2. **Student stage.** An incomplete-modality student retrieves primitives from
-   the frozen memory banks and learns from the complete-modality teacher.
-
-| Component | Full Name | Function |
-| --- | --- | --- |
-| **SSSD** | Shared-Specific Semantic Decoupling | Separates cross-modal shared semantics from modality-specific information. |
-| **DPMC** | Discrete Primitive Memory Construction | Quantizes modality-specific representations into learnable semantic prototypes. |
-| **DRAD** | Dynamic Retrieval Augmented Distillation | Dynamically retrieves primitives to compensate missing modality-specific cues. |
 
 ---
 
