@@ -5,23 +5,17 @@
 
 Multimodal Emotion Recognition (MER) often suffers from missing modalities in real-world scenarios. Existing methods usually generate, align, or distill missing modalities as a whole, overlooking the heterogeneity of information components within each modality. Such holistic treatment mixes inferable shared semantics with uncertain modality-specific details, causing unstable representations and weakening robustness. To address this issue, we propose the Primitive Memory Distillation (PriMD) framework. Unlike existing methods, PriMD takes an intra-modal perspective and focuses on the differences among information components within each modality. PriMD first disentangles cross-modal shared semantics from modality-specific representations, and then discretizes the latter into learnable semantic prototypes to construct modality-specific memory banks. When modalities are missing, the student uses the shared semantics of visible modalities as queries to dynamically retrieve prototypes. It compensates for missing modality-specific information within a constrained memory space and aligns with the teacher. Extensive experiments on IEMOCAP, CMU-MOSI, and CMU-MOSEI demonstrate that PriMD achieves state-of-the-art robustness across a wide range of missing-modality settings, while mitigating the instability caused by holistic feature inference.
 
----
-
 ## 🎇 Method Overview
 
 <p align="center">
   <img width="900" alt="PriMD Architecture" src="./figures/PriMD.png">
 </p>
 
----
-
 ## 💡 Key Features
 
 - We propose PriMD, a framework that starts from the internal information structure of modalities and formulates incomplete MER as a unified process of shared semantic estimation and constrained compensation of modality-specific information.
 - PriMD includes SSSD for separating shared and specific features, as well as DPMC and DRAD for discretizing the feature space and addressing missing-modality compensation.
 - Extensive experiments show that PriMD mitigates the instability caused by holistic representation and outperforms existing methods under various modality-missing scenarios.
-
----
 
 ## 🚀 Installation & Usage
 
@@ -105,7 +99,7 @@ saved/
 
 ## 📝 References
 
-If you find the code useful for your research, please consider citing
+If you find the code useful for your research, please consider citing:
 
 ```bib
 
