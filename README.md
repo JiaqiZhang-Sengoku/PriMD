@@ -1,5 +1,15 @@
 # [PriMD] Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective
-## 📖[**Paper**](https://arxiv.org/abs/2608.30563) 🖼️[**Project Page**](https://jiaqizhang-sengoku.github.io/PriMD/)
+
+<div align="center">
+  <a href="https://arxiv.org/abs/2608.30563">
+    <img src="https://img.shields.io/badge/Paper-arXiv.2608.30563-B31B1B?logo=arxiv&style=for-the-badge" alt="Paper" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://jiaqizhang-sengoku.github.io/PriMD/">
+    <img src="https://img.shields.io/badge/Project_Page-Website-1081C1?logo=googlechrome&style=for-the-badge" alt="Project Page" />
+  </a>
+</div>
+
 > Jiaqi Zhang, Zheng Pang, Mengting Li, Yiqi Wang, Guangyuan Dong, Chao Xue, Yusen Wu, Zihao Li, Huy Phan, Sicheng Zhao, Björn Schuller, Jiachen Luo <br>
 ## 📌 Abstract
 
