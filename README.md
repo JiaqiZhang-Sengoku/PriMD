@@ -1,4 +1,8 @@
-# [PriMD] Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective
+<h1 align="center">[PriMD] Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective</h1>
+
+<p align="center">
+  <b>Jiaqi Zhang</b>, Zheng Pang, Mengting Li, Yiqi Wang, Guangyuan Dong, Chao Xue, Yusen Wu, Zihao Li, Huy Phan, Sicheng Zhao, Björn Schuller, Jiachen Luo
+</p>
 
 <div align="center">
   <a href="https://arxiv.org/abs/2608.30563"><img src="https://img.shields.io/badge/Paper-arXiv.2608.30563-B31B1B?logo=arxiv&style=for-the-badge" alt="Paper" /></a>
@@ -6,7 +10,6 @@
   <a href="https://jiaqizhang-sengoku.github.io/PriMD/"><img src="https://img.shields.io/badge/Project_Page-Website-1081C1?logo=googlechrome&style=for-the-badge" alt="Project Page" /></a>
 </div>
 
-> Jiaqi Zhang, Zheng Pang, Mengting Li, Yiqi Wang, Guangyuan Dong, Chao Xue, Yusen Wu, Zihao Li, Huy Phan, Sicheng Zhao, Björn Schuller, Jiachen Luo <br>
 ## 📌 Abstract
 
 Multimodal Emotion Recognition (MER) often suffers from missing modalities in real-world scenarios. Existing methods usually generate, align, or distill missing modalities as a whole, overlooking the heterogeneity of information components within each modality. Such holistic treatment mixes inferable shared semantics with uncertain modality-specific details, causing unstable representations and weakening robustness. To address this issue, we propose the Primitive Memory Distillation (PriMD) framework. Unlike existing methods, PriMD takes an intra-modal perspective and focuses on the differences among information components within each modality. PriMD first disentangles cross-modal shared semantics from modality-specific representations, and then discretizes the latter into learnable semantic prototypes to construct modality-specific memory banks. When modalities are missing, the student uses the shared semantics of visible modalities as queries to dynamically retrieve prototypes. It compensates for missing modality-specific information within a constrained memory space and aligns with the teacher. Extensive experiments on IEMOCAP, CMU-MOSI, and CMU-MOSEI demonstrate that PriMD achieves state-of-the-art robustness across a wide range of missing-modality settings, while mitigating the instability caused by holistic feature inference.
