@@ -17,7 +17,7 @@ Multimodal Emotion Recognition (MER) often suffers from missing modalities in re
 ## 🎇 Method Overview
 
 <p align="center">
-  <img width="900" alt="PriMD Architecture" src="./figures/PriMD.png">
+  <img width="900" alt="PriMD Architecture" src="./Figures/PriMD.png">
 </p>
 
 ## 💡 Key Features
@@ -111,11 +111,15 @@ saved/
 If you find the code useful for your research, please consider citing:
 
 ```bib
-
+@article{PriMD,
+  author  = {Jiaqi Zhang and Zheng Pang and Mengting Li and Yiqi Wang and Guangyuan Dong and Chao Xue and Yusen Wu and Zihao Li and Huy Phan and Sicheng Zhao and Björn W. Schuller and Jiachen Luo},
+  title   = {Modality Disentangled Learning for Incomplete Multimodal Emotion Recognition: A Primitive Memory Distillation Perspective},
+  journal = {arXiv preprint arXiv:2608.30563},
+  year    = {2026}
+}
 ```
 
 ## 📢 LICENSE
 
 The project is under [MIT License](./LICENSE), and is for research purpose ONLY.
-
 
